@@ -1,11 +1,11 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2009.6.10)  5 SEP 2009 00:06
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2009.6.29)  5 SEP 2009 18:17
 entering extended mode
  %&-line parsing enabled.
 **cv_lin
 (./cv_lin.tex
 LaTeX2e <2005/12/01>
 Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
+yphenation, ukrainian, russian, bulgarian, loaded.
 (./moderncv.cls
 Document Class: moderncv 2007/05/28 v0.6 modern curriculum vitae document class
 
@@ -174,13 +174,41 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 \listdoubleitemmaincolumnwidth=\skip60
 \bibindent=\skip61
 )
-
-! LaTeX Error: File `lmodern.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2007/01/14 v1.3 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 13.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 14.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 15.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 16.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 17.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 18.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 19.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 20.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 23.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 24.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 25.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 29.
+)
 (/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
 Package: inputenc 2006/05/05 v1.1b Input encoding file
 \inpenc@prehook=\toks21
@@ -410,7 +438,8 @@ Package: geometry 2002/07/08 v3.2 Page Geometry
 \Gm@odd@mp=\dimen110
 \Gm@even@mp=\dimen111
 \Gm@dimlist=\toks23
-) (./cv_lin.aux)
+
+(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg)) (./cv_lin.aux)
 \openout1 = `cv_lin.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -427,6 +456,10 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 36.
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
+)
 Package hyperref Info: Link coloring OFF on input line 36.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
@@ -459,10 +492,10 @@ Package color Info: Redefining color addresscolor on input line 77.
 Package color Info: Redefining color sectionrectanglecolor on input line 78.
 Package color Info: Redefining color sectiontitlecolor on input line 79.
 Package color Info: Redefining color subsectioncolor on input line 80.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 96.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 96.
 
-(/usr/share/texmf-texlive/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+(/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2007/01/14 v1.3 Font defs for Latin Modern
 ))
 Package hyperref Info: Option `breaklinks' set `true' on input line 36.
 
@@ -521,33 +554,43 @@ driver:
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-
-LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <34> not available
-(Font)              size <35.83> substituted on input line 37.
-
 LaTeX Font Info:    Try loading font information for U+mvs on input line 37.
 (/usr/share/texmf-texlive/tex/latex/marvosym/umvs.fd)
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-[1
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 44.
 
-]
-No file cv_lin.bbl.
-[2] (./cv_lin.aux)
+LaTeX Font Info:    No file OMSlmss.fd. on input line 44.
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.83pt have occurred.
+LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 44.
+
+(./cv_lin.bbl
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 7.
+)
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 61.
+ [1
+
+] [2] (./cv_lin.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 3910 strings out of 95087
- 51946 string characters out of 1183278
- 113888 words of memory out of 1500000
- 7033 multiletter control sequences out of 10000+50000
- 15660 words of font info for 31 fonts, out of 1200000 for 2000
- 28 hyphenation exceptions out of 8191
- 32i,11n,45p,217b,448s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 3971 strings out of 94835
+ 53096 string characters out of 1179204
+ 114283 words of memory out of 1500000
+ 7094 multiletter control sequences out of 10000+50000
+ 48555 words of font info for 33 fonts, out of 1200000 for 2000
+ 212 hyphenation exceptions out of 8191
+ 32i,11n,45p,676b,446s stack positions out of 5000i,500n,6000p,200000b,5000s
 
-Output written on cv_lin.dvi (2 pages, 10312 bytes).
+Output written on cv_lin.dvi (2 pages, 12596 bytes).

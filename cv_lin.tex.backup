@@ -23,7 +23,7 @@
 \firstname{Zhongpeng}
 \familyname{Lin}
 \title{}               % optional, remove the line if not wanted
-\address{F11, Building 5, \#4 Zhongguancun South 4th. Street}{100190 Beijing, China}    % optional, remove the line if not wanted
+\address{F11, Building 5, No.4 Zhongguancun South 4th. Street}{100190 Beijing, China}    % optional, remove the line if not wanted
 \phone{8610 8268 3088}                      % optional, remove the line if not wanted
 \email{lin.zhp@gmail.com}                      % optional, remove the line if not wanted
 
@@ -37,17 +37,18 @@
 \maketitle
 
 \section{Education}
-\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 are optional
-\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 are optional
+\cventry{2007--present}{MS, Computer Software and Theory (expect 2010)}{Institute of Software, Chinese Academy of Sciences}{Beijing, China}{}{}%   arguments 3 to 6 are optional
+\cventry{2003--2007}{BS, Software Engineering}{Xiamen University}{Xiamen, China}{}{}  % arguments 3 to 6 are optional
 
-\section{Master thesis}
-\cvline{title}{\emph{Title}}
-\cvline{supervisors}{Supervisors}
-\cvline{description}{\small Short thesis abstract}
+% Publications from a BibTeX file
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
 
 \section{Experience}
 \subsection{Vocational}
-\cventry{year--year}{Job title}{Employer}{City}{}{Description}                % arguments 3 to 6 are optional
+\cventry{2008--present}{Senior Software Engineer, DBA, Techincal Mentor}{Realike}{}{Beijing,China}{I am working at Realike as a part-time engineer. With other colleagues, we used Ruby On Rails (ROR) and Adobe Flex to develop several web games on several social network websites, including Facebook. Some of our games have more than 600 thousand daily active users (DAU) and more than 40 million HTTP requests per day, which is believed to be the largest ROR application in China. I also help them to train new employees on ROR.}                % arguments 3 to 6 are optional
 \cventry{year--year}{Job title}{Employer}{City}{}{Description}                % arguments 3 to 6 are optional
 \subsection{Miscellaneous}
 \cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}% arguments 3 to 6 are optional
@@ -80,10 +81,6 @@
 \cvlistdoubleitem[\Neutral]{Item 2}{Item 5}
 \cvlistdoubleitem[\Neutral]{Item 3}{}
 
-% Publications from a BibTeX file
-\nocite{*}
-\bibliographystyle{plain}
-\bibliography{publications}       % 'publications' is the name of a BibTeX file
 
 \end{document}
 
