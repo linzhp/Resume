@@ -1,10 +1,3 @@
-%% start of file `template_en.tex'.
-%% Copyright 2007 Xavier Danaux (xdanaux@gmail.com).
-%
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
-% available at http://www.latex-project.org/lppl/.
-
 
 \documentclass[11pt,a4paper]{moderncv}
 
@@ -37,56 +30,57 @@
 \maketitle
 
 \section{Education}
-\cventry{2007--present}{MS, Computer Software and Theory (expect 2010)}{Institute of Software, Chinese Academy of Sciences}{Beijing, China}{}{}%   arguments 3 to 6 are optional
-\cventry{2003--2007}{BS, Software Engineering}{Xiamen University}{Xiamen, China}{}{}  % arguments 3 to 6 are optional
+\cventry{2007--present}{MS, Computer Software and Theory (expect 2010)}{Institute of Software, Chinese Academy of Sciences(ISCAS)}{Beijing, China}{}{}%   arguments 3 to 6 are optional
+\cventry{2003--2007}{BS, Software Engineering}{Software School, Xiamen University}{Xiamen, China}{}{}  % arguments 3 to 6 are optional
 
 \section{Research Interests}
-\cvlistitem{Empirical Software Engineering}
+\cvlistitem{Empirical Software Engineering, Agile Methods}
 \cvlistitem{Software Architecture}
 \cvlistitem{Data Mining, Business Intelligence}
 
 % Publications from a BibTeX file
+\nocite{*}
 \bibliographystyle{plain}
 \bibliography{publications}       % 'publications' is the name of a BibTeX file
 
+\section{Honors and Awards}
+\cventry{2009}{Excellent Student}{Graduate University, Chinese Academy of Sciences}{}{}{}
+\cventry{2009}{Graduate Student Fellowship}{Chinese Academy of Sciences}{}{}{}
+\cventry{2007}{Excellent Graduate}{Xiamen University}{}{}{Available for top 3\%}
+\cventry{2006,2007}{China Construction Bank Scholarship}{Xiamen University}{}{}{Available for top 5\%}
+\cventry{2004,2005}{Annual Scholarship, First-Rank}{Xiamen University}{}{}{Available for top 5\%}
 
 \section{Experience}
 \subsection{Vocational}
 \cventry{2008--present}{Senior Software Engineer, DBA, Techincal Mentor}{Realike (hoolai.com, a company with more 20 employees, focusing on developing social games)}{}{Beijing,China}{I am working as a part-time engineer. With other colleagues, we used Ruby On Rails (ROR) and Adobe Flex to develop several web games on several social network websites, including Facebook. Some of our games have more than 600 thousand daily active users (DAU) and more than 40 million HTTP requests per day, which is believed to be the largest ROR application in China. I also help them to train new employees on ROR.}                % arguments 3 to 6 are optional
+\cventry{2008}{OA Asistant}{Lab of Internet Technologies, ISCAS}{}{Beijing, China}{Responsible for the administration and maintenance of its Office Automation System, originally developed using ASP. I  rewrited some module and added some function using ASP.NET/C\#}
 \cventry{2007}{Intern Software Engineer}{Practical Strategies China}{Xiamen}{China}{This is a branch of a American company, Pratical Strategies, Inc. We used ROR and adopted eXtreme Programming to develop several projects, including a Agile method management system and an on-line music composition website}                % arguments 3 to 6 are optional
+
+\subsection{Course Projects}
+\cventry{Fall, 2007}{Team Leader of Four}{Advanced Data Mining}{}{Developed a plugin for RapidMiner data mining platform, implementing Rainforest decision tree algorithm, using Java}{}
+\cventry{Fall, 2007}{Team member}{Advanced Software Engineering}{}{Developed a software cost estimation tool based on COCOMO II, using Eclipse RCP}{}
+\cventry{Fall, 2006}{Team Leader of Six}{Data Mining}{}{}{Developed an association rules mining tool, using C\#\newline Developed three clustering plug-ins for AlphaMiner, implementing k-Mean, k-Medoids and FCM algorithm respectively, using Java}
+\cventry{Spring, 2006}{Team Leader of Thirteen}{Software Engineering}{}{Developed a domain-specific Chinese meta-search engine, using J2EE}{}
+
 \subsection{Miscellaneous}
-\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}% arguments 3 to 6 are optional
+\cventry{2008--present}{Leader of the Swimming Association}{ISCAS}{}{}{}
+\cventry{2006--2007}{Leader of the class}{Software School, Xiamen University}{}{}{}
+
+\section{Technical skills}
+\cvcomputer{Server-side}{Ruby On Rails, J2EE, .NET}{Browser-side}{XHTML, CSS, JavaScript, Adobe Flex}
+\cvcomputer{Desktop}{Swing, Eclipse RCP, C\#, MFC}{Servers}{Ubuntu, CentOS, Solaris}
+\cvcomputer{Databases}{MySQL, Postgres, Oracle, Microsoft SQL Server}{SCM}{Subversion, GIT}
+
+
 
 \section{Languages}
-\cvlanguage{language 1}{Skill level}{Comment}
-\cvlanguage{language 2}{Skill level}{Comment}
-\cvlanguage{language 3}{Skill level}{Comment}
+\cvlanguage{Chinese}{Native}{Southern Min is also my mother tongue}
+\cvlanguage{English}{Proficient}{TOEFL IBT: 106}
 
-\section{Computer skills}
-\cvcomputer{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
-\cvcomputer{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
-\cvcomputer{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
-
-\section{Interests}
-\cvline{hobby 1}{\small Description}
-\cvline{hobby 2}{\small Description}
-\cvline{hobby 3}{\small Description}
 
 \closesection{}                   % needed to renewcommands
 \renewcommand{\listitemsymbol}{-} % change the symbol for lists
 
-\section{Extra 1}
-\cvlistitem{Item 1}
-\cvlistitem{Item 2}
-\cvlistitem[+]{Item 3}            % optional other symbol
-
-\section{Extra 2}
-\cvlistdoubleitem[\Neutral]{Item 1}{Item 4}
-\cvlistdoubleitem[\Neutral]{Item 2}{Item 5}
-\cvlistdoubleitem[\Neutral]{Item 3}{}
 
 
 \end{document}
-
-
-%% end of file `template_en.tex'.
