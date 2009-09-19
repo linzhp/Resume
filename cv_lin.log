@@ -1,8 +1,4 @@
-<<<<<<< HEAD:cv_lin.log
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2009.6.10)  9 SEP 2009 00:03
-=======
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2009.6.29)  17 SEP 2009 15:29
->>>>>>> dbd818de0c6b54b138f1f807f51bf3c90ff9ebdd:cv_lin.log
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2009.6.10)  19 SEP 2009 10:07
 entering extended mode
  %&-line parsing enabled.
 **cv_lin
@@ -542,31 +538,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.83pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD:cv_lin.log
- 3912 strings out of 95087
- 51960 string characters out of 1183278
- 115888 words of memory out of 1500000
- 7032 multiletter control sequences out of 10000+50000
+ 3910 strings out of 95087
+ 51942 string characters out of 1183278
+ 116888 words of memory out of 1500000
+ 7030 multiletter control sequences out of 10000+50000
  16476 words of font info for 32 fonts, out of 1200000 for 2000
  28 hyphenation exceptions out of 8191
  32i,11n,45p,676b,448s stack positions out of 5000i,500n,6000p,200000b,5000s
-=======
- 3965 strings out of 94835
- 53043 string characters out of 1179204
- 117283 words of memory out of 1500000
- 7088 multiletter control sequences out of 10000+50000
- 48555 words of font info for 33 fonts, out of 1200000 for 2000
- 212 hyphenation exceptions out of 8191
- 32i,11n,45p,676b,446s stack positions out of 5000i,500n,6000p,200000b,5000s
->>>>>>> dbd818de0c6b54b138f1f807f51bf3c90ff9ebdd:cv_lin.log
 
-<<<<<<< HEAD:cv_lin.log
-Output written on cv_lin.dvi (2 pages, 12704 bytes).
-=======
-Output written on cv_lin.dvi (2 pages, 13412 bytes).
->>>>>>> dbd818de0c6b54b138f1f807f51bf3c90ff9ebdd:cv_lin.log
+Output written on cv_lin.dvi (2 pages, 12620 bytes).
