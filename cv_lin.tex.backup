@@ -16,7 +16,7 @@
 \firstname{Zhongpeng}
 \familyname{Lin}
 \title{}               % optional, remove the line if not wanted
-\address{F11, Building 5, No.4 Zhongguancun South 4th. Street}{100190 Beijing, China}    % optional, remove the line if not wanted
+\address{F11, Building \#5, No.4 Zhongguancun South 4th Street}{100190 Beijing, China}    % optional, remove the line if not wanted
 \phone{8610 8268 3088}                      % optional, remove the line if not wanted
 \email{lin.zhp@gmail.com}                      % optional, remove the line if not wanted
 
@@ -51,11 +51,12 @@
 \subsection{Vocational}
 \cventry{Nov 2008 -- present}{Senior Software Engineer, DBA, Technical Mentor}{Realike (hoolai.com, a company with more 20 employees, focusing on developing social games)}{Beijing}{China}{I am working as a part-time engineer. With other colleagues, we used Ruby On Rails (ROR) and Adobe Flex to develop several web games on several social network websites, including Facebook. Some of our games have more than 600 thousand daily active users (DAU) and more than 40 million HTTP requests per day, which is believed to be the largest ROR application in China. I also help them to train new employees on ROR.}                % arguments 3 to 6 are optional
 \cventry{May -- Nov 2008}{OA Assistant}{Lab of Internet Technologies, ISCAS}{Beijing}{China}{Responsible for the administration and maintenance of its Office Automation System, originally developed using ASP. I rewrote some module and added some function using ASP.NET/C\#.}
-\cventry{Feb -- Aug 2007}{Intern Software Engineer}{Shepherd}{Xiamen}{China}{We used ROR and adopted eXtreme Programming to develop several projects, including a Agile method management system and an on-line music composition website.}                % arguments 3 to 6 are optional
+\cventry{Feb -- Aug 2007}{Intern Software Engineer}{Shepherd}{Xiamen}{China}{We used ROR and adopted Extreme Programming to develop several projects, including a Agile method management system and an on-line music composition website.}                % arguments 3 to 6 are optional
 
-\subsection{Selected Class Projects}
+\subsection{Selected Class and Lab Projects}
+\cventry{Oct 2009 -- present}{Chief Developer}{iTechs Lab, ISCAS}{Propheta project}{using SWT/JFace}{Propheta aims at developing a new software cost estimation based on the practice and feedback of InCoMo (see below). It will support more cost estimatin models.}
+\cventry{Oct 2007 --\\Jul 2008}{Chief Developer}{iTechs Lab, ISCAS}{InCoMo project}{using Eclipse RCP}{InCoMo is a software cost estimation tools that has been used in several organizations. It is based on COCOMO II, but allows users to tail the Cost Drivers and calibrate the constants}
 \cventry{Fall, 2007}{Team Leader of Four}{Advanced Data Mining}{}{Developed a plugin for RapidMiner data mining platform, implementing Rainforest decision tree algorithm, using Java}{}
-\cventry{Fall, 2007}{Team member}{Advanced Software Engineering}{}{Developed a software cost estimation tool based on COCOMO II, using Eclipse RCP}{}
 \cventry{Fall, 2006}{Team Leader of Six}{Data Mining}{}{}{Developed an association rules mining tool, using C\#\newline Developed three clustering plug-ins for AlphaMiner, implementing k-Mean, k-Medoids and FCM algorithm respectively, using Java}
 \cventry{Spring, 2006}{Team Leader of Thirteen}{Software Engineering}{}{Developed a domain-specific Chinese meta-search engine, using J2EE}{}
 
