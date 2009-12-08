@@ -16,8 +16,8 @@
 \firstname{Zhongpeng}
 \familyname{Lin}
 \title{}               % optional, remove the line if not wanted
-\address{F11, Building \#5, No.4 Zhongguancun South 4th Street}{100190 Beijing, China}    % optional, remove the line if not wanted
-\phone{8610 8268 3088}                      % optional, remove the line if not wanted
+\address{F11, BLD 5,\\4 Zhongguancun South 4th Street}{100190 Beijing, China}    % optional, remove the line if not wanted
+\phone{+86(10)82683088}                      % optional, remove the line if not wanted
 \email{lin.zhp@gmail.com}                      % optional, remove the line if not wanted
 
 %\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
@@ -34,6 +34,7 @@
 \cventry{2003 -- 2007}{BS, Software Engineering}{Software School, Xiamen University}{Xiamen, China}{}{}  % arguments 3 to 6 are optional
 
 % Publications from a BibTeX file
+\nocite{*}
 \bibliographystyle{plain}
 \bibliography{publications}       % 'publications' is the name of a BibTeX file
 
@@ -56,9 +57,9 @@
 \subsection{Selected Class and Lab Projects}
 \cventry{Oct 2009 -- present}{Chief Developer}{iTechs Lab, ISCAS}{Propheta project}{using SWT/JFace}{Propheta aims at developing a new software cost estimation based on the practice and feedback of InCoMo (see below). It will support more cost estimatin models.}
 \cventry{Oct 2007 --\\Jul 2008}{Chief Developer}{iTechs Lab, ISCAS}{InCoMo project}{using Eclipse RCP}{InCoMo is a software cost estimation tools that has been used in several organizations. It is based on COCOMO II, but allows users to tail the Cost Drivers and calibrate the constants}
-\cventry{Fall, 2007}{Team Leader of Four}{Advanced Data Mining}{}{Developed a plugin for RapidMiner data mining platform, implementing Rainforest decision tree algorithm, using Java}{}
+\cventry{Fall, 2007}{Team Leader of Four}{Advanced Data Mining}{Developed a plugin for RapidMiner data mining platform, implementing Rainforest decision tree algorithm}{using Java}{}
 \cventry{Fall, 2006}{Team Leader of Six}{Data Mining}{}{}{Developed an association rules mining tool, using C\#\newline Developed three clustering plug-ins for AlphaMiner, implementing k-Mean, k-Medoids and FCM algorithm respectively, using Java}
-\cventry{Spring, 2006}{Team Leader of Thirteen}{Software Engineering}{}{Developed a domain-specific Chinese meta-search engine, using J2EE}{}
+\cventry{Spring, 2006}{Team Leader of Thirteen}{Software Engineering}{Polaris project}{using J2EE}{Polaris is a domain-specific Chinese metasearch engine, integrating search results from Baidu, Google, Yahoo}
 
 \subsection{Miscellaneous}
 \cventry{Jul 2008 -- present}{Leader of the Swimming Association}{ISCAS}{}{}{}
@@ -67,12 +68,13 @@
 \section{Technical skills}
 \cvcomputer{Server-side}{Ruby On Rails, J2EE, .NET}{Browser-side}{XHTML, CSS, JavaScript, Adobe Flex}
 \cvcomputer{Desktop}{Swing, Eclipse RCP/JFace/SWT, C\#, MFC}{Servers}{Ubuntu, CentOS, Solaris, Windows Server}
-\cvcomputer{Databases}{MySQL, PostgreSQL, Oracle, SQL Server}{SCM}{Subversion, GIT}
+\cvcomputer{Databases}{MySQL, PostgreSQL, Oracle, SQL Server}{SCM}{Subversion, Git}
 
 
 
 \section{Languages}
-\cvlanguage{Chinese}{Native}{Southern Min is also my mother tongue}
+\cvlanguage{Chinese}{Native}{}
+\cvlanguage{Taiwanese}{Native}{}
 \cvlanguage{English}{Proficient}{TOEFL IBT: 106}
 
 
