@@ -1,8 +1,6 @@
 
 \documentclass[11pt,a4paper]{moderncv}
 
-% moderncv themes
-%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
 \moderncvtheme[roman]{classic}                % idem
 
 % character encoding
@@ -15,12 +13,9 @@
 % personal data
 \firstname{Zhongpeng}
 \familyname{Lin}
-\address{Room 307, Engineering Bld 2, 1156 High Street}{Santa Cruz, CA, 95064}    % optional, remove the line if not wanted
+\address{Room 307, Engineering 2, 1156 High Street}{Santa Cruz, CA, 95064}    % optional, remove the line if not wanted
 \phone{831-459-1720}                      % optional, remove the line if not wanted
-\email{zlin5@ucsc.edu}                      % optional, remove the line if not wanted
-
-%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
-
+\homepage{http://users.soe.ucsc.edu/\~{}linzhp}
 
 %----------------------------------------------------------------------------------
 %            content
@@ -39,6 +34,7 @@
 \bibliography{publications}       % 'publications' is the name of a BibTeX file
 
 \section{Honors and Awards}
+\cventry{2010}{Regents Fellowship}{University of California}{Santa Cruz}{}{}
 \cventry{2007 -- 2010}{Graduate Student Fellowship}{Institute of Software, Chinese Academy of Sciences}{}{}{}
 \cventry{2009}{Excellent Student}{Graduate University, Chinese Academy of Sciences}{}{}{Available to top 15\% graduate students}
 \cventry{2009}{Graduate Student Scholarship}{Chinese Academy of Sciences}{}{}{Available to top 23\% graduate students}
@@ -69,8 +65,10 @@
 \cventry{2006 -- 2007}{Leader of the class}{Software School, Xiamen University}{}{}{}
 
 \section{Technical skills}
-\cvcomputer{Languages}{Ruby (ROR), Java (Swing, RCP/JFace/SWT, J2EE), Python, ActionScript~3 (Flex), XHTML/CSS/JavaScript, C\# (ASP.NET), C/C++ (MFC)}{Server Admistration}{Ubuntu, CentOS, Solaris, Windows Server}
-\cvcomputer{Databases Admistration}{MySQL, PostgreSQL, Oracle, SQL Server}{Source Control Systems}{Subversion, Git}
+\cvline{Languages}{Ruby (ROR), Java (Swing, RCP/JFace/SWT, J2EE), Python, ActionScript~3 (Flex), XHTML/CSS/JavaScript, C\# (ASP.NET), C/C++ (MFC)}
+\cvline{Databases}{MySQL, PostgreSQL, Oracle, SQL Server}
+\cvline{Servers}{Ubuntu, CentOS, Solaris, Windows Server}
+\cvline{Source Control Systems}{Subversion, Git}
 
 \section{Languages}
 \cvlanguage{Mandrin Chinese}{Native}{}
