@@ -1,0 +1,97 @@
+                                                                                              [U+260E] +1 (831) 334 8728
+                                                                                               [U+2709] lin.zhp@gmail.com
+Zhongpeng Lin [U+FFFD] users.soe.ucsc.edu/~linzhp
+
+
+
+             Education
+ 2010 ~ now PhD, Computer Science, Jack Baskin School of Engineering, University of California,
+             Santa Cruz, CA, GPA: 3.88/4.00.
+            * Research areas: Software evolution, software repository mining, procedural content generation
+            * Courses: Information Retrieval, Machine Learning, Artificial Intelligence, Analysis of Algorithms,
+               Mathematical Statistics
+2007 ~ 2010 MS, Computer Software and Theory, Institute of Software, Chinese Academy of Sci-
+             ences (ISCAS), Beijing, China, GPA: 87.9/100.
+            * Research areas: software cost estimation, software bug prediction
+            * Courses: Advanced Data Mining, Advanced Software Engineering
+            * Honors and Awards: Excellent Student (2009, Available to top 15% graduate students)
+2003 ~ 2007 BS, Software Engineering, Software School, Xiamen University, Xiamen, China, GPA:
+             90.0/100.
+            * Honors and Awards
+               - Excellent Graduate (2007), Available to top 3% graduates by GPA each year
+               - China Construction Bank Scholarship (2006, 2007), Available to top 5% by GPA undergrad-
+                  uate students each year
+               - Xiamen University First-Rank Scholarship (2004, 2005), Available to top 5% by GPA under-
+                  graduate students each year
+
+             Technical skills
+  Languages Ruby (ROR), Java (JSP, Servlet), JavaScript/HTML 5 (WebGL), Python, GNU Oc-
+             tave/Matlab, R, ActionScript 3 (Flex), C# (ASP.NET), C/C++
+  Databases MySQL, PostgreSQL, Oracle, Microsoft SQL Server
+Web Servers Nginx, Apache, Lighttpd, IIS
+        OS Linux (Ubuntu, CentOS), Windows
+       SCM Subversion, Git
+
+             Experience
+             Working
+2009 ~ 2010 Part-time Software Engineer, Playcrab Ltd, Beijing, China.
+             Used Hemlock to develop infrastructure for real-time communication in a social network game
+
+2008 ~ 2009 Part-time Software Engineer, Database Administrator, System Administrator,
+             Hoolai Social Game Ltd, Beijing, China.
+            * Participant in the development of several social network games using Ruby On Rails and Adobe
+               Flex, one of which had more than 600 thousand Daily Active Users at its peak
+            * Setting up and maintaining a web infrastructure comprised of an Nginx/lighttpd server as load
+               balancer, and several Nginx/lighttpd servers with several Phusion Passenger processes on each
+               server to process more than 10 million HTTP requests every day
+            * Configuration and optimization of the MySQL and Memcached servers
+       2008 OA Assistant, Lab of Internet Technologies, ISCAS, Beijing, China.
+             Responsible for the administration and maintenance of its OOEce Automation System, originally
+             developed using ASP:
+             * Rewrote some modules and added some features using ASP.NET and C#
+             * Modified a few HTML pages to support browsers besides Internet Explorer
+       2007 Intern, Xiamen Shepherd Co., Ltd, Xiamen, China.
+             Used ROR and adopted Extreme Programming practices to develop several projects, including a
+             Agile development management system AgilePlanner and an on-line music composition website
+             ComposeItYourself.
+             Teaching
+  Fall 2011 Teaching Assistant, Machine Learning and Data Mining, UC Santa Cruz, CA.
+  Fall 2011 Teaching Assistant, Introduction to Database Management Systems, UC Santa Cruz,
+             CA.
+Spring 2011 Teaching Assistant, Introduction to Computer Science, UC Santa Cruz, CA.
+
+
+             Publications
+             Caitlin Sadowski, Chris Lewis, Zhongpeng Lin, Xiaoyan Zhu, and E. James Whitehead. An
+             Empirical Analysis of the FixCache Algorithm. In Proceeding of the 8th working conference on
+             Mining software repositories - MSR '11, page 219, New York, New York, USA, May 2011. ACM
+             Press.
+             Jing Du, Ye Yang, Zhongpeng Lin, Qing Wang, Mingshu Li, and Feng Yuan. A Case Study on
+             Usage of a Software Process Management Tool in China. In Proceedings of the 2010 Asia Pacific
+             Software Engineering Conference, APSEC '10, pages 443~452, Washington, DC, USA, 2010. IEEE
+             Computer Society.
+             Zhongpeng Lin, Fengdi Shu, Ye Yang, Chenyong Hu, and Qing Wang. An Empirical Study on Bug
+             Assignment Automation Using Chinese Bug Data. In Proceedings of the 2009 3rd International
+             Symposium on Empirical Software Engineering and Measurement, ESEM '09, pages 451~455,
+             Washington, DC, USA, 2009. IEEE Computer Society.
+
+             Languages
+  Mandarin Native Taiwanese Native
+    English Proficient
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                  2/2
+
+

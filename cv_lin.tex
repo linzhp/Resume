@@ -5,6 +5,7 @@
 
 % character encoding
 \usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage[T1]{fontenc}
 
 % adjust the page margins
 \usepackage[scale=0.8]{geometry}
@@ -27,16 +28,17 @@
 
 \input{objective.tex}
 \input{education.tex}
+
 \input{technical.tex}
+
 \input{experience.tex}
-\input{courses.tex}
 
 % Publications from a BibTeX file
 %\nocite{*}
 \bibliographystyle{unsrt}
 \bibliography{publications}       % 'publications' is the name of a BibTeX file
 
-\input{honors.tex}
+% \input{languages.tex}
 
 \closesection{}                   % needed to renewcommands
 \renewcommand{\listitemsymbol}{-} % change the symbol for lists
