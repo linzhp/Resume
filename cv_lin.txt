@@ -14,8 +14,7 @@ data in Apple for my PhD research on software evolution.
                * Research areas: Software evolution, software repository mining, procedural content generation
                * Courses: Information Retrieval, Machine Learning, Artificial Intelligence, Analysis of Algorithms,
                    Mathematical Statistics
- 2007 ~ 2010 MS, Computer Software and Theory, Institute of Software, Chinese Academy of Sci-
-                ences (ISCAS), Beijing, China, GPA: 87.9/100.
+ 2007 ~ 2010 MS, Computer Software and Theory, Institute of Software, Chinese Academy of Sciences (ISCAS), Beijing, China, GPA: 87.9/100.
                * Research areas: software cost estimation, software bug prediction
                * Courses: Advanced Data Mining, Advanced Software Engineering
                * Honors and Awards: Excellent Student (2009, Available to top 15% graduate students)
@@ -23,14 +22,11 @@ data in Apple for my PhD research on software evolution.
                 90.0/100.
                * Honors and Awards
                    - Excellent Graduate (2007), Available to top 3% graduates by GPA each year
-                   - China Construction Bank Scholarship (2006, 2007), Available to top 5% by GPA undergrad-
-                     uate students each year
-                   - Xiamen University First-Rank Scholarship (2004, 2005), Available to top 5% by GPA under-
-                     graduate students each year
+                   - China Construction Bank Scholarship (2006, 2007), Available to top 5% by GPA undergraduate students each year
+                   - Xiamen University First-Rank Scholarship (2004, 2005), Available to top 5% by GPA undergraduate students each year
 
                 Technical skills
-   Languages Ruby (ROR), Java (JSP, Servlet), JavaScript/HTML 5 (WebGL), Python, GNU Oc-
-                tave/Matlab, R, ActionScript 3 (Flex), C# (ASP.NET), C/C++
+   Languages Ruby (ROR), Java (JSP, Servlet), JavaScript/HTML 5 (WebGL), Python, GNU Octave/Matlab, R, ActionScript 3 (Flex), C# (ASP.NET), C/C++
    Databases MySQL, PostgreSQL, Oracle, Microsoft SQL Server
  Web Servers Nginx, Apache, Lighttpd, IIS
            OS Linux (Ubuntu, CentOS), Windows
@@ -41,12 +37,6 @@ data in Apple for my PhD research on software evolution.
                 Working
  2009 ~ 2010 Part-time Software Engineer, Playcrab Ltd, Beijing, China.
                 Used Hemlock to develop infrastructure for real-time communication in a social network game
-
-
-
-                                                                                                                    1/2
-
-
 2008 ~ 2009 Part-time Software Engineer, Database Administrator, System Administrator,
             Hoolai Social Game Ltd, Beijing, China.
             * Participant in the development of several social network games using Ruby On Rails and Adobe
