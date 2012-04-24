@@ -1,50 +1,50 @@
-                                                                                                [U+260E] +1 (831) 334 8728
-                                                                                                 [U+2709] lin.zhp@gmail.com
+                                                                                              [U+260E] +1 (831) 334 8728
+                                                                                               [U+2709] lin.zhp@gmail.com
 Zhongpeng Lin [U+FFFD] users.soe.ucsc.edu/~linzhp
 
 
 
-                Objective
-I am looking for a summer internship in Apple where I could work with experienced engineers to solve
-challenging problems and make exciting products. If possible, I would also like to collect development
-data in Apple for my PhD research on software evolution.
-                Education
-  2010 ~ now PhD, Computer Science, Jack Baskin School of Engineering, University of California,
-                Santa Cruz, CA, GPA: 3.88/4.00.
-               * Research areas: Software evolution, software repository mining, procedural content generation
-               * Courses: Information Retrieval, Machine Learning, Artificial Intelligence, Analysis of Algorithms,
-                   Mathematical Statistics
- 2007 ~ 2010 MS, Computer Software and Theory, Institute of Software, Chinese Academy of Sciences (ISCAS), Beijing, China, GPA: 87.9/100.
-               * Research areas: software cost estimation, software bug prediction
-               * Courses: Advanced Data Mining, Advanced Software Engineering
-               * Honors and Awards: Excellent Student (2009, Available to top 15% graduate students)
- 2003 ~ 2007 BS, Software Engineering, Software School, Xiamen University, Xiamen, China, GPA:
-                90.0/100.
-               * Honors and Awards
-                   - Excellent Graduate (2007), Available to top 3% graduates by GPA each year
-                   - China Construction Bank Scholarship (2006, 2007), Available to top 5% by GPA undergraduate students each year
-                   - Xiamen University First-Rank Scholarship (2004, 2005), Available to top 5% by GPA undergraduate students each year
+             Education
+ 2010 ~ now PhD, Computer Science, University of California, Santa Cruz, CA, GPA: 3.89/4.00.
+            * Research areas: Software evolution, software repository mining, procedural content generation
+            * Courses: Information Retrieval, Machine Learning, Artificial Intelligence, Analysis of Algorithms,
+               Mathematical Statistics
+2007 ~ 2010 MS, Computer Software and Theory, Institute of Software, Chinese Academy of Sciences (ISCAS), Beijing, China, GPA: 87.9/100.
+            * Research areas: software cost estimation, software bug prediction
+            * Courses: Advanced Data Mining, Advanced Software Engineering
+            * Honors and Awards: Excellent Student (2009, Available to top 15% graduate students)
+2003 ~ 2007 BS, Software Engineering, Xiamen University, Xiamen, China, GPA: 90.0/100.
+            * Honors and Awards
+                - Excellent Graduate (2007), Available to top 3% graduates by GPA each year
+                - China Construction Bank Scholarship (2006, 2007), Available to top 5% by GPA undergraduate students each year
+                - Xiamen University First-Rank Scholarship (2004, 2005), Available to top 5% by GPA undergraduate students each year
 
-                Technical skills
-   Languages Ruby (ROR), Java (JSP, Servlet), JavaScript/HTML 5 (WebGL), Python, GNU Octave/Matlab, R, ActionScript 3 (Flex), C# (ASP.NET), C/C++
-   Databases MySQL, PostgreSQL, Oracle, Microsoft SQL Server
- Web Servers Nginx, Apache, Lighttpd, IIS
-           OS Linux (Ubuntu, CentOS), Windows
-         SCM Subversion, Git
+             Technical skills
+  Languages Ruby (ROR), Java (JSP, Servlet, Eclipse RCP/JFace), JavaScript/HTML5 (WebGL),
+             Python, GNU Octave/Matlab, R, ActionScript 3 (Flex), C# (ASP.NET), C/C++
+  Databases MySQL, PostgreSQL, Oracle, Microsoft SQL Server
+Web Servers Nginx, Apache, Lighttpd, IIS
+        OS Linux (Ubuntu, CentOS), Windows
+       SCM Subversion, Git
 
-
-                Experience
-                Working
- 2009 ~ 2010 Part-time Software Engineer, Playcrab Ltd, Beijing, China.
-                Used Hemlock to develop infrastructure for real-time communication in a social network game
+             Experience
+             Working
+2009 ~ 2010 Part-time Software Engineer, Playcrab Ltd, Beijing, China.
+             Used Hemlock to develop infrastructure for real-time communication in a social network game
 2008 ~ 2009 Part-time Software Engineer, Database Administrator, System Administrator,
-            Hoolai Social Game Ltd, Beijing, China.
+             Hoolai Social Game Ltd, Beijing, China.
             * Participant in the development of several social network games using Ruby On Rails and Adobe
                Flex, one of which had more than 600 thousand Daily Active Users at its peak
             * Setting up and maintaining a web infrastructure comprised of an Nginx/lighttpd server as load
                balancer, and several Nginx/lighttpd servers with several Phusion Passenger processes on each
                server to process more than 10 million HTTP requests every day
             * Configuration and optimization of the MySQL and Memcached servers
+
+
+
+                                                                                                                   1/2
+
+
        2008 OA Assistant, Lab of Internet Technologies, ISCAS, Beijing, China.
             Responsible for the administration and maintenance of its OOEce Automation System, originally
             developed using ASP:
@@ -54,18 +54,27 @@ data in Apple for my PhD research on software evolution.
             Used ROR and adopted Extreme Programming practices to develop several projects, including a
             Agile development management system AgilePlanner and an on-line music composition website
             ComposeItYourself.
+            Research
+       2012 Graduate Student Researcher, University of California, Santa Cruz, CA.
+            Worked on a NASA funded project Understanding the Design Space of Mixed Initiative Robot
+            Design Tools, developed the prototype in HTML5/JavaScript using WebGL/three.js API
+2010 ~ 2011 Graduate Student Researcher, University of California, Santa Cruz, CA.
+            Developed extensions to MininGit open source project in Python, and maintained it as the primary
+            reviewer
             Teaching
-  Fall 2011 Teaching Assistant, Machine Learning and Data Mining, UC Santa Cruz, CA.
-  Fall 2011 Teaching Assistant, Introduction to Database Management Systems, UC Santa Cruz,
-            CA.
-Spring 2011 Teaching Assistant, Introduction to Computer Science, UC Santa Cruz, CA.
-
+  Fall 2011 Teaching Assistant, University of California, Santa Cruz, CA, Machine Learning and
+            Data Mining.
+  Fall 2011 Teaching Assistant, University of California, Santa Cruz, CA, Introduction to Database
+            Management Systems.
+Spring 2011 Teaching Assistant, University of California, Santa Cruz, CA, Introduction to Computer
+            Science.
 
             Publications
             Caitlin Sadowski, Chris Lewis, Zhongpeng Lin, Xiaoyan Zhu, and E. James Whitehead. An
             Empirical Analysis of the FixCache Algorithm. In Proceeding of the 8th working conference on
             Mining software repositories - MSR '11, page 219, New York, New York, USA, May 2011. ACM
             Press.
+
             Jing Du, Ye Yang, Zhongpeng Lin, Qing Wang, Mingshu Li, and Feng Yuan. A Case Study on
             Usage of a Software Process Management Tool in China. In Proceedings of the 2010 Asia Pacific
             Software Engineering Conference, APSEC '10, pages 443~452, Washington, DC, USA, 2010. IEEE
@@ -84,8 +93,6 @@ Spring 2011 Teaching Assistant, Introduction to Computer Science, UC Santa Cruz,
 
 
 
-
-
-                                                                                                                   2/2
+                                                                                                                    2/2
 
 

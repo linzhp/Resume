@@ -7,6 +7,8 @@
 \usepackage[utf8]{inputenc}                   % replace by the encoding you are using
 \usepackage[T1]{fontenc}
 
+\lefthyphenmin=64
+
 % adjust the page margins
 \usepackage[scale=0.8]{geometry}
 \recomputelengths                             % required when changes are made to page layout lengths
@@ -37,7 +39,7 @@
 %\nocite{*}
 \bibliographystyle{unsrt}
 \bibliography{publications}       % 'publications' is the name of a BibTeX file
-
+\input{courses}
 % \input{languages.tex}
 
 \closesection{}                   % needed to renewcommands
