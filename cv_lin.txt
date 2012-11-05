@@ -1,84 +1,103 @@
-                                                                                       	phone: +1 (831) 334 8728
-Zhongpeng Lin 																			email: lin.zhp@gmail.com
+
+                                                                Zhongpeng Lin
+                 [U+FFFD] +1 (831) 334-8728 [U+2022] [U+2709] lin.zhp@gmail.com [U+2022] [U+FFFD] https://github.com/linzhp
+
+
+Education
+University of California Santa Cruz, CA
+PhD, Computer Science, GPA: 3.89/4.00 2010 ~ now
+* Research areas: Software evolution, software repository mining, procedural content generation
+* Courses: Information Retrieval, Machine Learning, Artificial Intelligence, Analysis of Algorithms, Mathematical
+  Statistics
+Institute of Software, Chinese Academy of Sciences (ISCAS) Beijing, China
+MS, Computer Software and Theory, GPA: 87.9/100 2007 ~ 2010
+* Research areas: software cost estimation, software bug prediction
+* Courses: Advanced Data Mining, Advanced Software Engineering
+* Honors and Awards: Excellent Student of 2009, available to top 15% graduate students
+Xiamen University Xiamen, China
+BS, Software Engineering, GPA: 90.0/100 2003 ~ 2007
+* Honors and Awards
+  - Excellent Graduate of 2007, available to top 3% graduates by GPA each year
+  - China Construction Bank Scholarship of 2006 and 2007, available to top 5% by GPA undergraduate students
+     each year
+  - Xiamen University First-Rank Scholarship of 2004 and 2005, available to top 5% by GPA undergraduate
+     students each year
+
+Technical skills
+Languages: Ruby (ROR), Java (jUnit, JSP, Servlet, Eclipse RCP/JFace), Objective-C (iOS), JavaScript
+(jQuery, Raphael.js, Three.js, Jasmine), C/C++, Python
+Databases: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+Operating Systems: Linux (Ubuntu), Windows, OS X, Unix (CentOS)
+SCM: Git ,Subversion
+
+Experience
+Working. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+eleGreen Walnut, CA
+Part-time iOS Developer 2012
+Developed an iOS app for users to trade-in their smart phones and tablets and track their trade-in requests. It
+uses multi-threading to communicate with eleGreen's web API, and Core Data to provide a local cache. The
+app can be found on Apple's App Store at https://itunes.apple.com/us/app/elegreen/id568587701
+Playcrab Ltd Beijing, China
+Part-time Software Engineer 2009 ~ 2010
+Used Hemlock to develop an infrastructure for peer-to-peer communication in a social network game. The
+communication used the XMPP protocol
 
 
 
-             Education
- 2010 ~ now PhD, Computer Science, University of California, Santa Cruz, CA, GPA: 3.89/4.00.
-             Research areas: Software evolution, software repository mining, procedural content generation
 
-             Courses: Information Retrieval, Machine Learning, Artificial Intelligence, Analysis of Algorithms,
-             Mathematical Statistics
- 2007 ~ 2010 MS, Computer Software and Theory, Institute of Software, Chinese Academy of
-             Sciences (ISCAS), Beijing, China, GPA: 87.9/100.
-             Research areas: software cost estimation, software bug prediction
-             Courses: Advanced Data Mining, Advanced Software Engineering
-             Honors and Awards: Excellent Student (2009, Available to top 15% graduate students)
- 2003 ~ 2007 BS, Software Engineering, Xiamen University, Xiamen, China, GPA: 90.0/100.
-             Honors and Awards
-             Excellent Graduate (2007), Available to top 3% graduates by GPA each year
-             China Construction Bank Scholarship (2006, 2007), Available to top 5% by GPA undergraduate
-             students each year
-             Xiamen University First-Rank Scholarship (2004, 2005), Available to top 5% by GPA
-             undergraduate students each year
+                                                                                                                                                                                                                                   1/2
+
 
-             Technical skills
-  Languages Java (JSP, Servlet, Eclipse RCP/JFace), Ruby (ROR), Objective-C (Cocoa Touch)
-             Python, JavaScript (WebGL), C/C++
-   Databases MySQL, PostgreSQL, Oracle, Microsoft SQL Server
-        SCM Subversion, Git
+Hoolai Social Game Ltd Beijing, China
+Part-time Software Engineer, Database Administrator, System Administrator 2008 ~ 2009
+* Participant in the development of several social network games using Ruby On Rails and Adobe Flex, one
+  of which had more than 600 thousand Daily Active Users at its peak
+* Setting up and maintaining a web infrastructure comprised of an Nginx/lighttpd server as load balancer,
+  and several Nginx/lighttpd servers with several Phusion Passenger processes on each server to process
+  more than 10 million HTTP requests every day
+* Configuration and optimization of the MySQL and Memcached servers
+Lab of Internet Technologies, ISCAS Beijing, China
+OA Assistant 2008
+Responsible for the administration and maintenance of its OOEce Automation System, originally developed
+using ASP:
+* Rewrote some modules and added some features using ASP.NET and C#
+* Modified a few HTML pages to support browsers besides Internet Explorer
+Xiamen Shepherd Co., Ltd Xiamen, China
+Intern 2007
+Used RORand adopted Extreme Programming practices to develop several projects, including a Agile development
+management system AgilePlanner and an on-line music composition website ComposeItYourself.
+Research. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-             Experience
+University of California Santa Cruz, CA
+Graduate Student Researcher 2012
+Worked on a NASAfunded project Understanding the Design Space of Mixed Initiative Robot Design Tools, developed
+the prototype in JavaScript. It used Raphael.js to sketch the robot chassis in 2D, and Three.js to render it in 3D.
+We built our own JavaScript MVC architecture and event-driven infrastructure in this project. We also wrote
+automatic tests using the Jasmine framework
+University of California Santa Cruz, CA
+Graduate Student Researcher 2010 ~ 2011
+Developed extensions to the MininGit open source project in Python, and maintained it as the primary reviewer
+Teaching. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+University of California Santa Cruz, CA
+Teaching Assistant 2011
+I TA'ed in the following courses: Machine Learning and Data Mining, Introduction to Database Management
+Systems, and Introduction to Computer Science
+Publications
+Caitlin Sadowski, Chris Lewis, Zhongpeng Lin, Xiaoyan Zhu, and E. James Whitehead. An
+Empirical Analysis of the FixCache Algorithm. In Proceeding of the 8th working conference on Mining
+software repositories - MSR '11, page 219, New York, New York, USA, May 2011. ACM Press.
 
-             Working
- 2009 ~ 2010 Part-time Software Engineer, Playcrab Ltd, Beijing, China.
-             Used Hemlock to develop infrastructure for real-time communication in a social network game
- 2008 ~ 2009 Part-time Software Engineer, Database Administrator, System Administrator,
-             Hoolai Social Game Ltd, Beijing, China.
-             Participant in the development of several social network games using Ruby On Rails and Adobe
-             Flex, one of which had more than 600 thousand Daily Active Users at its peak
-             Setting up and maintaining a web infrastructure comprised of an Nginx/lighttpd server as load
-             balancer, and several Nginx/lighttpd servers with several Phusion Passenger processes on each
-             server to process more than 10 million HTTP requests every day
-             Configuration and optimization of the MySQL and Memcached servers
-       2008 OA Assistant, Lab of Internet Technologies, ISCAS, Beijing, China.
-            Responsible for the administration and maintenance of its OOEce Automation System, originally
-            developed using ASP:
-            Rewrote some modules and added some features using ASP.NET and C#
-            Modified a few HTML pages to support browsers besides Internet Explorer
-       2007 Intern, Xiamen Shepherd Co., Ltd, Xiamen, China.
-            Used ROR and adopted Extreme Programming practices to develop several projects, including a
-            Agile development management system AgilePlanner and an on-line music composition website
-            ComposeItYourself.
+Jing Du, Ye Yang, Zhongpeng Lin, Qing Wang, Mingshu Li, and Feng Yuan. A Case Study on Usage
+of a Software Process Management Tool in China. In Proceedings of the 2010 Asia Pacific Software
+Engineering Conference, APSEC '10, pages 443~452, Washington, DC, USA, 2010. IEEE Computer
+Society.
+Zhongpeng Lin, Fengdi Shu, Ye Yang, Chenyong Hu, and Qing Wang. An Empirical Study on
+Bug Assignment Automation Using Chinese Bug Data. In Proceedings of the 2009 3rd International
+Symposium on Empirical Software Engineering and Measurement, ESEM '09, pages 451~455, Washington,
+DC, USA, 2009. IEEE Computer Society.
 
-            Research
-       2012 Graduate Student Researcher, University of California, Santa Cruz, CA.
-            Worked on a NASA funded project Understanding the Design Space of Mixed Initiative Robot
-            Design Tools, developed the prototype in HTML5/JavaScript. It used Raphael.js to sketch the
-            robot chassis in 2D, and used Three.js to render it in 3D.
-2010 ~ 2011 Graduate Student Researcher, University of California, Santa Cruz, CA.
-            Developed extensions to MininGit open source project in Python, and maintained it as the
-            primary reviewer
-            Teaching
 
-  Fall 2011 Teaching Assistant, University of California, Santa Cruz, CA, Machine Learning and
-            Data Mining.
-  Fall 2011 Teaching Assistant, University of California, Santa Cruz, CA, Introduction to Database
-            Management Systems.
-Spring 2011 Teaching Assistant, University of California, Santa Cruz, CA, Introduction to
-            Computer Science.
 
-            Publications
-            Caitlin Sadowski, Chris Lewis, Zhongpeng Lin, Xiaoyan Zhu, and E. James Whitehead. An
-            Empirical Analysis of the FixCache Algorithm. In Proceeding of the 8th working conference on
-            Mining software repositories - MSR '11, page 219, New York, New York, USA, May 2011. ACM
-            Press.
+                                                                                                                                                                                                                                    2/2
+
 
-            Jing Du, Ye Yang, Zhongpeng Lin, Qing Wang, Mingshu Li, and Feng Yuan. A Case Study
-            on Usage of a Software Process Management Tool in China. In Proceedings of the 2010 Asia
-            Pacific Software Engineering Conference, APSEC '10, pages 443~452, Washington, DC, USA,
-            2010. IEEE Computer Society.
-            Zhongpeng Lin, Fengdi Shu, Ye Yang, Chenyong Hu, and Qing Wang. An Empirical Study
-            on Bug Assignment Automation Using Chinese Bug Data. In Proceedings of the 2009 3rd
-            International Symposium on Empirical Software Engineering and Measurement, ESEM '09, pages
-            451~455, Washington, DC, USA, 2009. IEEE Computer Society.
