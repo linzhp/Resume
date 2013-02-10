@@ -1,9 +1,17 @@
 \begin{thebibliography}{1}
 
+\bibitem{Lewis2013}
+Chris Lewis, Zhongpeng Lin, Caitlin Sadowski, Xiaoyan Zhu, Rong Ou, and
+  E.~James~Whitehead Jr.
+\newblock {Does Bug Prediction Support Human Developers? Findings from a Google
+  Case Study}.
+\newblock In {\em Proceedings of the 35th International Conference on Software
+  Engineering}, San Francisco, CA, 2013. IEEE.
+
 \bibitem{Sadowski2011}
 Caitlin Sadowski, Chris Lewis, Zhongpeng Lin, Xiaoyan Zhu, and E.~James
   Whitehead.
-\newblock {An Empirical Analysis of the FixCache Algorithm}.
+\newblock {An empirical analysis of the FixCache algorithm}.
 \newblock In {\em Proceeding of the 8th working conference on Mining software
   repositories - MSR '11}, page 219, New York, New York, USA, May 2011. ACM
   Press.
@@ -13,15 +21,15 @@ Jing Du, Ye~Yang, Zhongpeng Lin, Qing Wang, Mingshu Li, and Feng Yuan.
 \newblock {A Case Study on Usage of a Software Process Management Tool in
   China}.
 \newblock In {\em Proceedings of the 2010 Asia Pacific Software Engineering
-  Conference}, APSEC '10, pages 443--452, Washington, DC, USA, 2010. IEEE
-  Computer Society.
+  Conference}, APSEC '10, pages 443--452, Washington, DC, USA, November 2010.
+  IEEE Computer Society.
 
-\bibitem{Lin:2009}
+\bibitem{Lin2009}
 Zhongpeng Lin, Fengdi Shu, Ye~Yang, Chenyong Hu, and Qing Wang.
-\newblock {An Empirical Study on Bug Assignment Automation Using Chinese Bug
-  Data}.
-\newblock In {\em Proceedings of the 2009 3rd International Symposium on
-  Empirical Software Engineering and Measurement}, ESEM '09, pages 451--455,
-  Washington, DC, USA, 2009. IEEE Computer Society.
+\newblock {An empirical study on bug assignment automation using Chinese bug
+  data}.
+\newblock In {\em 2009 3rd International Symposium on Empirical Software
+  Engineering and Measurement}, ESEM '09, pages 451--455, Washington, DC, USA,
+  October 2009. IEEE.
 
 \end{thebibliography}
