@@ -1,20 +1,26 @@
 \begin{thebibliography}{1}
 
+\bibitem{Lin2013}
+Zhongpeng Lin.
+\newblock {Understanding and Simulating Software Evolution}.
+\newblock In {\em Proceedings of the 35th International Conference on Software
+  Engineering}, pages 1411--1414, San Francisco, CA, 2013. IEEE/ACM.
+
 \bibitem{Lewis2013}
 Chris Lewis, Zhongpeng Lin, Caitlin Sadowski, Xiaoyan Zhu, Rong Ou, and
   E.~James~Whitehead Jr.
 \newblock {Does Bug Prediction Support Human Developers? Findings from a Google
   Case Study}.
 \newblock In {\em Proceedings of the 35th International Conference on Software
-  Engineering}, San Francisco, CA, 2013. IEEE.
+  Engineering}, pages 372--381, San Francisco, CA, 2013. IEEE/ACM.
 
 \bibitem{Sadowski2011}
 Caitlin Sadowski, Chris Lewis, Zhongpeng Lin, Xiaoyan Zhu, and E.~James
   Whitehead.
 \newblock {An empirical analysis of the FixCache algorithm}.
 \newblock In {\em Proceeding of the 8th working conference on Mining software
-  repositories - MSR '11}, page 219, New York, New York, USA, May 2011. ACM
-  Press.
+  repositories - MSR '11}, pages 219--222, New York, New York, USA, May 2011.
+  ACM Press.
 
 \bibitem{Du:2010}
 Jing Du, Ye~Yang, Zhongpeng Lin, Qing Wang, Mingshu Li, and Feng Yuan.
