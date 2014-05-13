@@ -1,45 +1,61 @@
 \begin{thebibliography}{1}
 
-\bibitem{Lewis2013}
-Chris Lewis, Zhongpeng Lin, Caitlin Sadowski, Xiaoyan Zhu, Rong Ou, and
-  E.~James~Whitehead Jr.
-\newblock {Does Bug Prediction Support Human Developers? Findings from a Google
-  Case Study}.
-\newblock In {\em Proceedings of the 35th International Conference on Software
-  Engineering}, pages 372--381, San Francisco, CA, 2013. IEEE/ACM.
+\bibitem{Lin2014}
+Zhongpeng Lin and Jim Whitehead.
+\newblock Using fine-grained code change metrics to simulate software
+  evolution.
+\newblock In {\em Proceedings of the 5th International Workshop on Emerging
+  Trends in Software Metrics}, pages 15--18, Hyderabad, India, June 2014. ACM
+  Press.
 
-\bibitem{Lin2013}
-Zhongpeng Lin.
-\newblock {Understanding and Simulating Software Evolution}.
-\newblock In {\em Proceedings of the 35th International Conference on Software
-  Engineering}, pages 1411--1414, San Francisco, CA, 2013. IEEE/ACM.
+\bibitem{Logas2014}
+{Heather Logas, Jim Whitehead, Michael Mateas, Richard Vallejos, Lauren Scott,
+  Dan Shapiro, John Murray, Kate Compton, Joseph Osborn, Orlando Salvatore,
+  Zhongpeng Lin, Huascar Sanchez, Michael Shavlovsky, Daniel Cetina, Shayne
+  Clementi and Chris Lewis}.
+\newblock Software verification games: Designing xylem, the code of plants.
+\newblock In {\em Proceedings of the 9th International Conference on the
+  Foundations of Digital Games}, 2014.
 
 \bibitem{Lin2013a}
 Zhongpeng Lin, Chris Lewis, Sri Kurniawan, and Jim Whitehead.
-\newblock {Why players start and stop playing a Chinese social network game}.
+\newblock Why players start and stop playing a chinese social network game.
 \newblock {\em Journal of Gaming \& Virtual Worlds}, 5(3):307--328(22), 2013.
+
+\bibitem{Lin2013}
+Zhongpeng Lin.
+\newblock Understanding and simulating software evolution.
+\newblock In {\em Proceedings of the 35th International Conference on Software
+  Engineering}, pages 1411--1414, San Francisco, CA, USA, 2013. IEEE/ACM.
+
+\bibitem{Lewis2013}
+Chris Lewis, Zhongpeng Lin, Caitlin Sadowski, Xiaoyan Zhu, Rong Ou, and
+  E.~James~Whitehead Jr.
+\newblock Does bug prediction support human developers? findings from a google
+  case study.
+\newblock In {\em Proceedings of the 35th International Conference on Software
+  Engineering}, pages 372--381, San Francisco, CA, USA, 2013. IEEE/ACM.
 
 \bibitem{Sadowski2011}
 Caitlin Sadowski, Chris Lewis, Zhongpeng Lin, Xiaoyan Zhu, and E.~James
   Whitehead.
-\newblock {An empirical analysis of the FixCache algorithm}.
+\newblock An empirical analysis of the fixcache algorithm.
 \newblock In {\em Proceeding of the 8th working conference on Mining software
-  repositories}, pages 219--222, New York, New York, USA, May 2011. ACM Press.
+  repositories}, pages 219--222, Honolulu, HI, USA, May 2011. ACM Press.
 
 \bibitem{Du:2010}
 Jing Du, Ye~Yang, Zhongpeng Lin, Qing Wang, Mingshu Li, and Feng Yuan.
-\newblock {A Case Study on Usage of a Software Process Management Tool in
-  China}.
+\newblock A case study on usage of a software process management tool in china.
 \newblock In {\em Proceedings of the 2010 Asia Pacific Software Engineering
-  Conference}, APSEC '10, pages 443--452, Washington, DC, USA, November 2010.
-  IEEE Computer Society.
+  Conference}, pages 443--452, Sydney, Australia, November 2010. IEEE Computer
+  Society.
 
 \bibitem{Lin2009}
 Zhongpeng Lin, Fengdi Shu, Ye~Yang, Chenyong Hu, and Qing Wang.
-\newblock {An empirical study on bug assignment automation using Chinese bug
-  data}.
-\newblock In {\em 2009 3rd International Symposium on Empirical Software
-  Engineering and Measurement}, ESEM '09, pages 451--455, Washington, DC, USA,
-  October 2009. IEEE.
+\newblock An empirical study on bug assignment automation using chinese bug
+  data.
+\newblock In {\em Proceedings of the 3rd International Symposium on Empirical
+  Software Engineering and Measurement}, pages 451--455, Lake Buena Vista, FL,
+  USA, October 2009. IEEE.
 
 \end{thebibliography}

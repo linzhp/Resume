@@ -4,6 +4,7 @@
 \moderncvcolor{blue} 
 % character encoding
 \usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage{CJKutf8}
 \usepackage[T1]{fontenc}
 
 \lefthyphenmin=64
@@ -14,26 +15,26 @@
 
 % personal data
 \name{Zhongpeng}{Lin}
-%\address{112 Koshland Way}{Santa Cruz, CA, 95064}    % optional, remove the line if not wanted
-\phone[mobile]{+1~(831)~708-8597}                      % optional, remove the line if not wanted
+\title{林中鹏}
+\address{112 Koshland Way}{Santa Cruz, CA 95064}{USA}    % optional, remove the line if not wanted
 \email{lin.zhp@gmail.com}
-\homepage{users.soe.ucsc.edu/\textasciitilde linzhp/}
-\social[github]{linzhp}
-\social[linkedin]{linzhp}
+\phone[mobile]{+1~(831)~708-8597}                      % optional, remove the line if not wanted
+\phone[fixed]{+86~(596)~6753615}
 
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
 \begin{document}
+\begin{CJK}{UTF8}{gbsn}                       % 详情参阅CJK文件包
 \maketitle
 
-% \input{objective.tex}
+\input{basic.tex}
 \input{education.tex}
 
-\input{technical.tex}
+% \input{technical.tex}
 
 \input{experience.tex}
-
+\input{travel.tex}
 % Publications from a BibTeX file
 \nocite{*}
 \bibliographystyle{unsrt}
@@ -41,6 +42,6 @@
 % \input{courses}
 % \input{languages.tex}
 
-\closesection{}                   % needed to renewcommands
-\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+\clearpage
+\end{CJK}
 \end{document}
