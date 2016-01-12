@@ -1,32 +1,51 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{Lin2015}
+Zhongpeng Lin.
+\newblock {\em Understanding and Simulating Software Evolution}.
+\newblock PhD thesis, University of California, Santa Cruz, December 2015.
+
+\bibitem{Lin2015power}
+Zhongpeng Lin and Jim Whitehead.
+\newblock Why power laws? an explanation from fine-grained code changes.
+\newblock In {\em Proceedings of the 12th Working Conference on Mining Software
+  Repositories (MSR 2015)}, pages 68--75, Florence, Italy, May 2015.
+
+\bibitem{Compton2015}
+{Kate Compton, Dylan Lederle-Ensign, Zhongpeng Lin, Joe Mazeika, Afshin
+  Mobramaein, Jonathan Pagnutti, Huascar Sanchez and Jim Whitehead}.
+\newblock Botprint: Casual robotic evolution.
+\newblock In {\em Computational Creativity and Games Workshop}, Park City, UT,
+  USA, 2015.
 
 \bibitem{Lin2014}
 Zhongpeng Lin and Jim Whitehead.
 \newblock Using fine-grained code change metrics to simulate software
   evolution.
 \newblock In {\em Proceedings of the 5th International Workshop on Emerging
-  Trends in Software Metrics}, pages 15--18, Hyderabad, India, June 2014. ACM
-  Press.
+  Trends in Software Metrics (WETSoM 2014)}, pages 15--18, Hyderabad, India,
+  June 2014. ACM Press.
 
 \bibitem{Logas2014}
 {Heather Logas, Jim Whitehead, Michael Mateas, Richard Vallejos, Lauren Scott,
   Dan Shapiro, John Murray, Kate Compton, Joseph Osborn, Orlando Salvatore,
   Zhongpeng Lin, Huascar Sanchez, Michael Shavlovsky, Daniel Cetina, Shayne
   Clementi and Chris Lewis}.
-\newblock Software verification games: Designing xylem, the code of plants.
+\newblock Software verification games: Designing {Xylem}, the code of plants.
 \newblock In {\em Proceedings of the 9th International Conference on the
-  Foundations of Digital Games}, 2014.
+  Foundations of Digital Games (FDG 2014)}, 2014.
 
 \bibitem{Lin2013a}
 Zhongpeng Lin, Chris Lewis, Sri Kurniawan, and Jim Whitehead.
-\newblock Why players start and stop playing a chinese social network game.
-\newblock {\em Journal of Gaming \& Virtual Worlds}, 5(3):307--328(22), 2013.
+\newblock {Why players start and stop playing a Chinese social network game}.
+\newblock {\em Journal of Gaming \& Virtual Worlds}, 5(3):307--328, 2013.
 
 \bibitem{Lin2013}
 Zhongpeng Lin.
 \newblock Understanding and simulating software evolution.
 \newblock In {\em Proceedings of the 35th International Conference on Software
-  Engineering}, pages 1411--1414, San Francisco, CA, USA, 2013. IEEE/ACM.
+  Engineering (ICSE 2013)}, pages 1411--1414, San Francisco, CA, USA, May 2013.
+  IEEE/ACM.
 
 \bibitem{Lewis2013}
 Chris Lewis, Zhongpeng Lin, Caitlin Sadowski, Xiaoyan Zhu, Rong Ou, and
@@ -34,14 +53,16 @@ Chris Lewis, Zhongpeng Lin, Caitlin Sadowski, Xiaoyan Zhu, Rong Ou, and
 \newblock Does bug prediction support human developers? findings from a google
   case study.
 \newblock In {\em Proceedings of the 35th International Conference on Software
-  Engineering}, pages 372--381, San Francisco, CA, USA, 2013. IEEE/ACM.
+  Engineering (ICSE 2013)}, pages 372--381, San Francisco, CA, USA, May 2013.
+  IEEE/ACM.
 
 \bibitem{Sadowski2011}
 Caitlin Sadowski, Chris Lewis, Zhongpeng Lin, Xiaoyan Zhu, and E.~James
   Whitehead.
 \newblock An empirical analysis of the fixcache algorithm.
-\newblock In {\em Proceeding of the 8th working conference on Mining software
-  repositories}, pages 219--222, Honolulu, HI, USA, May 2011. ACM Press.
+\newblock In {\em Proceeding of the 8th Working Conference on Mining Software
+  Repositories (MSR 2011)}, pages 219--222, Honolulu, HI, USA, May 2011. ACM
+  Press.
 
 \bibitem{Du:2010}
 Jing Du, Ye~Yang, Zhongpeng Lin, Qing Wang, Mingshu Li, and Feng Yuan.
