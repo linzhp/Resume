@@ -4,3 +4,4 @@
 *.dvi
 *.log
 cv_lin.synctex.gz
+*.synctex

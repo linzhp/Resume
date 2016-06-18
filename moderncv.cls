@@ -1,5 +1,5 @@
 %% start of file `moderncv.cls'.
-%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
 %
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License version 1.3c,
@@ -10,7 +10,7 @@
 %                identification
 %-------------------------------------------------------------------------------
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{moderncv}[2013/04/29 v1.5.1 modern curriculum vitae and letter document class]
+\ProvidesClass{moderncv}[2015/07/28 v2.0.0 modern curriculum vitae and letter document class]
 
 
 %-------------------------------------------------------------------------------
@@ -81,7 +81,7 @@
 % TODO: move to xifthen and \isempty{<arg>} instead of \equal{<arg>}{}
 
 % color
-\RequirePackage{xcolor}
+\RequirePackage[table]{xcolor}
 
 % font loading
 \RequirePackage{ifxetex,ifluatex}
@@ -128,7 +128,7 @@
     bookmarksopen = true,
     bookmarksdepth= 2,% to show sections and subsections
     pdfauthor     = {\@firstname{}~\@lastname{}},
-    pdftitle      = {\@firstname{}~\@lastname{} -- \@title{}},
+    pdftitle      = {\@firstname{}~\@lastname{}\notblank{\@title}{ -- \@title}{}},
     pdfsubject    = {Resum\'{e} of \@firstname{}~\@lastname{}},
     pdfkeywords   = {\@firstname{}~\@lastname{}, curriculum vit\ae{}, resum\'{e}}}}
 
@@ -146,6 +146,8 @@
 \newcommand*{\nopagenumbers}{\@displaypagenumbersfalse}
 \AtEndPreamble{%
   \AtBeginDocument{%
+    % fancyhdr length
+    \renewcommand{\headwidth}{\textwidth}
     \if@displaypagenumbers%
       \@ifundefined{r@lastpage}{}{%
         \ifthenelse{\pageref{lastpage}>1}{%
@@ -310,10 +312,25 @@
 % usage: \makefooter
 \newcommand*{\makefooter}{}%
 
-% loads a style variant
+% loads a style variant (a combination of header, body and footer)
 % usage: \moderncvstyle{<style variant name>}
-\newcommand*{\moderncvstyle}[1]{
-  \RequirePackage{moderncvstyle#1}}
+\newcommand*{\moderncvstyle}[2][]{
+  \RequirePackage[#1]{moderncvstyle#2}}
+
+% loads a header variant
+% usage: \moderncvhead[<optional head option>]{<header variant number>}
+\newcommand*{\moderncvhead}[2][]{
+  \expandafter\RequirePackage\expandafter[\expandafter#1\expandafter]{\expandafter moderncvhead\romannumeral #2}}
+
+% loads a body variant
+% usage: \moderncvbody[<optional body option>]{<body variant number>}
+\newcommand*{\moderncvbody}[2][]{
+  \expandafter\RequirePackage\expandafter[\expandafter#1\expandafter]{\expandafter moderncvbody\romannumeral #2}}
+
+% loads a footer variant
+% usage: \moderncvfoot{<footer variant number>}
+\newcommand*{\moderncvfoot}[1]{
+  \expandafter\RequirePackage\expandafter{\expandafter moderncvfoot\romannumeral #1}}
   
 % loads a color scheme
 % usage: \moderncvcolor{<color scheme name>}
@@ -326,12 +343,43 @@
   \RequirePackage{moderncvicons#1}}
 
 % recomputes all automatic lengths
+\newcommand*{\recomputeheadlengths}{\recomputecvheadlengths}
+\newcommand*{\recomputebodylengths}{\recomputecvbodylengths}
+\newcommand*{\recomputefootlengths}{\recomputecvfootlengths}
 \newcommand*{\recomputelengths}{\recomputecvlengths}
 \AtBeginDocument{\recomputelengths{}}
 
+% creates a command if not yet defined
+\newcommand*{\@initializecommand}[2]{%
+  \ifdefined#1
+    \renewcommand{#1}{#2}%
+  \else%
+    \newcommand*{#1}{#2}\fi}
+
 % creates a length if not yet defined
 \newcommand*{\@initializelength}[1]{%
-  \ifdefined#1\else\newlength{#1}\fi}
+  \ifdefined#1
+  \else%
+    \newlength{#1}\fi%
+  \setlength{#1}{0pt}}
+
+% creates a box if not yet defined
+\newcommand*{\@initializebox}[1]{%
+  \ifdefined#1
+    \savebox{#1}{}%
+  \else%
+    \newsavebox{#1}\fi}
+
+% creates an if switch if not yet defined
+\newcommand*{\@initializeif}[1]{%
+%  \ifdefined#1% not working due to the nested \if
+%  \else%
+    \newif#1%\fi
+  }
+
+% custom strut for spacing; the first argument is the vertical offset of the strut, the second its total height
+\newcommand*{\@moderncvstrut}[2]{%
+  \rule[-#1]{0pt}{#2}}
 
 
 %-------------------------------------------------------------------------------
@@ -352,6 +400,12 @@
 \newcommand*{\subsectionfont}{}
 \newcommand*{\hintfont}{}
 \newcommand*{\pagenumberfont}{\addressfont\itshape}
+% fake small caps - cfr http://tex.stackexchange.com/questions/55664/fake-small-caps-with-xetex-fontspec
+%\def\fakesc{\bgroup\obeyspaces\fakescaux}
+%\def\fakescaux#1{\fakescauxii #1\relax\relax\egroup}
+%\def\fakescauxii#1{%
+%\ifx\relax#1\else \ifcat#1\@sptoken{} \expandafter\expandafter\expandafter\fakescauxii\else
+%\ifnum`#1=\uccode`#1 {\normalsize #1}\else {\footnotesize \uppercase{#1}}\fi \expandafter\expandafter\expandafter\fakescauxii\expandafter\fi\fi}
 
 % styles
 \newcommand*{\namestyle}[1]{{\namefont#1}}
@@ -364,24 +418,30 @@
 \newcommand*{\pagenumberstyle}[1]{{\pagenumberfont#1}}
 
 % recompute all resume lengths
-\newcommand*{\recomputecvlengths}{}
+\newcommand*{\recomputecvheadlengths}{}
+\newcommand*{\recomputecvbodylengths}{}
+\newcommand*{\recomputecvfootlengths}{}
+\newcommand*{\recomputecvlengths}{%
+  \recomputecvheadlengths%
+  \recomputecvbodylengths%
+  \recomputecvfootlengths}
 
 % internal maketitle command to issue a new line only when required
 \newif\if@firstdetailselement\@firstdetailselementtrue
-\newcommand*{\makenewline}{
+\newcommand*{\makenewline}[1][0pt]{%
   \if@firstdetailselement%
     \strut% to ensure baseline alignment, e.g. with when put in the margin vs sections that also contains a \strut
   \else%
-    \\\fi%
+    \\[#1]\fi%
   \@firstdetailselementfalse}
 
 % makes the resume title
 % usage: \makecvtitle
-\newcommand*{\makecvtitle}{}
-
-% makes the resume footer
-% usage: \makecvfooter
-\newcommand*{\makecvfooter}{\makefooter}
+\newcommand*{\makecvtitle}{%
+  \makecvhead%
+  \makecvfoot}
+\newcommand*{\makecvhead}{}
+\newcommand*{\makecvfoot}{}
 
 % makes a resume section
 % usage: \section{<title>}
@@ -458,7 +518,7 @@
     \setcounter{cvcolumnsautowidthcounter}{0}%
     \setlength{\cvcolumnsautowidth}{\cvcolumnsdummywidth}%
     \setlength{\cvcolumnautowidth}{0pt}%
-    \@cvcolumns@head@emptytrue}%
+    \@cvcolumns@head@emptytrue\ignorespaces}%
   {% at environment closing: typeset environment
     % compute the width of each cvcolumn, considering a spacing of \separatorcolumnwidth and the columns with set width
     \ifnum\thecvcolumnscounter>0%
@@ -479,7 +539,9 @@
         \g@addto@macro\cvcolumns@def{@{\hspace*{\separatorcolumnwidth}}}%
         \g@addto@macro\cvcolumns@head{&}%
         \g@addto@macro\cvcolumns@content{&}\fi%
-      \expandafter\g@addto@macro\expandafter\cvcolumns@def\expandafter{\csname cvcolumn\roman{tmpiteratorcounter}@def\endcsname}%
+%      \expandafter\g@addto@macro\expandafter\cvcolumns@def\expandafter{\csname cvcolumn\roman{tmpiteratorcounter}@def\endcsname}%      % this creates issues with the colortbl" package (loaded by xcolor when passing the "table" option) as the column definitions passed to \begin{tabular} contains \cvcolumn<i>@def references that it doesn't understand; the next 2 lines expand \cvcolumn@def to the point it doesn't
+      \edef\tmpcvcolumn@def{\csname cvcolumn\roman{tmpiteratorcounter}@def\endcsname}%
+      \expandafter\g@addto@macro\expandafter\cvcolumns@def\expandafter{\tmpcvcolumn@def}%
       \expandafter\g@addto@macro\expandafter\cvcolumns@head\expandafter{\csname cvcolumn\roman{tmpiteratorcounter}@head\endcsname}%
       \expandafter\g@addto@macro\expandafter\cvcolumns@content\expandafter{\csname cvcolumn\roman{tmpiteratorcounter}@content\endcsname}%
       \stepcounter{tmpiteratorcounter}%
@@ -497,7 +559,9 @@
 %      \repeat%
     % create the tabular
     \cvitem{}{%
-      \begin{tabular}{\cvcolumns@def}%
+%      \begin{tabular}{\cvcolumns@def}% this conflicts with the "colortbl" package (loaded by xcolor when passing the "table" option), and requires the below 2 lines to expand \cvcolumns@def
+      \def\begincvcolumns{\begin{tabular}[t]}% "[t]" is required for some body styles; the default alignment is "[c]"
+      \expandafter\begincvcolumns\expandafter{\cvcolumns@def}%
         \if@cvcolumns@head@empty\else%
           \cvcolumns@head%\\[-.8em]%
 %          {\color{color1}\rule{\maincolumnwidth}{.25pt}}%
@@ -521,7 +585,8 @@
       \expandafter\expandafter\expandafter\def\expandafter\csname cvcolumn\roman{cvcolumnscounter}@head\endcsname{\protect\parbox[b]{#1\cvcolumnswidth}{\protect\subsectionstyle{#2}}}}%
   \ifthenelse{\equal{#2}{}}{}{\@cvcolumns@head@emptyfalse}%
   \expandafter\expandafter\expandafter\def\expandafter\csname cvcolumn\roman{cvcolumnscounter}@content\endcsname{\protect\cvcolumncell{#3}}%
-  \stepcounter{cvcolumnscounter}}
+  \stepcounter{cvcolumnscounter}%
+  \ignorespaces}
 
 % internal cvcolumncell command, that enables a cvcolumn cell to contain paragraph commands (lists, newlines, etc)
 \newcommand*{\cvcolumncell}[1]{{% put cell inside a group, so that command redefinitions are only local
@@ -543,6 +608,10 @@
 \newenvironment{thebibliography}[1]{}{}
 \newcommand*{\newblock}{\hskip .11em\@plus.33em\@minus.07em}
 \let\@openbib@code\@empty
+%% fix a bug (hardcoded bib label) in \@bibitem
+%\renewcommand\@bibitem[1]{%
+%  \item\if@filesw \immediate\write\@auxout
+%    {\string\bibcite{#1}{\theenumiv}}\fi\ignorespaces}% replaced "\the\value{\@listctr}" with "\theenumiv"
 
 % itemize, enumerate and description environment
 \setlength{\leftmargini}   {1em}
@@ -595,15 +664,21 @@
   \def\@enclosure{#2}}
 
 % recompute all letter lengths
-\newcommand*{\recomputeletterlengths}{}
+\newcommand*{\recomputeletterheadlengths}{}
+\newcommand*{\recomputeletterbodylengths}{}
+\newcommand*{\recomputeletterfootlengths}{}
+\newcommand*{\recomputeletterlengths}{%
+  \recomputeletterheadlengths%
+  \recomputeletterbodylengths%
+  \recomputeletterfootlengths}
 
 % makes the letter title
 % usage: \makelettertitle
-\newcommand*{\makelettertitle}{}
-
-% makes the letter footer
-% usage: \makeletterfooter
-\newcommand*{\makeletterfooter}{\makefooter}
+\newcommand*{\makelettertitle}{%
+  \makeletterhead%
+  \makeletterfoot}
+\newcommand*{\makeletterhead}{}
+\newcommand*{\makeletterfoot}{}
 
 % makes the letter closing
 % usage: \makeletterclosing
