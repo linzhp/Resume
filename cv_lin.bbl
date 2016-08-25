@@ -1,5 +1,15 @@
 \begin{thebibliography}{10}
 
+\bibitem{Compton2016}
+{Kate Compton, Heather Logas, Joseph C. Osborn, Chandranil Chakrabortti, Kelsey
+  Coffman, Daniel Fava, Dylan Lederle-Ensign, Zhongpeng Lin, Joe Mazeika,
+  Afshin Mobramaein, Jonathan Pagnutti, Huascar Sanchez , Jim Whitehead, Brenda
+  Laurel and John Murray}.
+\newblock Design lessons from binary fission: A crowd sourced game for
+  precondition discovery.
+\newblock In {\em Proceedings of 1st International Joint Conference of DiGRA
+  and FDG}, Dundee, Scotland, UK, 2016.
+
 \bibitem{Lin2015}
 Zhongpeng Lin.
 \newblock {\em Understanding and Simulating Software Evolution}.
