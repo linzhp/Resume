@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{Lin2020}
+Zhongpeng Lin.
+\newblock {Building Uber's Go Monorepo with Bazel}.
+\newblock In {\em Uber Engineering Blog}.
+  https://eng.uber.com/go-monorepo-bazel, 2020.
+
 \bibitem{Compton2016}
 {Kate Compton, Heather Logas, Joseph C. Osborn, Chandranil Chakrabortti, Kelsey
   Coffman, Daniel Fava, Dylan Lederle-Ensign, Zhongpeng Lin, Joe Mazeika,
