@@ -1,98 +1,47 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
+
+\bibitem{bazelcon2025}
+Zhongpeng Lin and Yushan Lin.
+\newblock Managing flaky tests with {Bazel} and rules\_go.
+\newblock Bazelcon 2025.
+\newblock \url{https://youtu.be/xIWge1XEZew}.
+
+\bibitem{11121715}
+Dhruva Juloori, Zhongpeng Lin, Matthew Williams, Eddy Shin, and Sonal Mahajan.
+\newblock { CI at Scale: Lean, Green, and Fast }.
+\newblock In {\em 2025 IEEE/ACM 47th International Conference on Software
+  Engineering: Software Engineering in Practice (ICSE-SEIP)}, pages 437--447,
+  Los Alamitos, CA, USA, May 2025. IEEE Computer Society.
+
+\bibitem{bazelcon2023}
+Tyler French and Zhongpeng Lin.
+\newblock Bazel + {Go} with rules\_go \& {Gazelle}.
+\newblock BazelCon Community Day 2023.
+\newblock \url{https://youtu.be/wOsGEBvUNHU}.
+
+\bibitem{lin2023}
+Zhongpeng Lin and Matthew Williams.
+\newblock Bypassing large diffs in {SubmitQueue}.
+\newblock Uber Engineering Blog, August 2023.
+\newblock
+  \url{https://www.uber.com/blog/bypassing-large-diffs-in-submitqueue/}.
+
+\bibitem{gitmerge2022}
+Zhongpeng Lin.
+\newblock Improving git status performance in {Uber}'s {Go} monorepo.
+\newblock Git Merge 2022.
+\newblock \url{https://youtu.be/5xGc3UlsQHQ}.
+
+\bibitem{bazelcon2022}
+Zhongpeng Lin.
+\newblock What we learned building a large bazel repository.
+\newblock Bazelcon 2022.
+\newblock \url{https://youtu.be/eljV_yJ17z0}.
 
 \bibitem{Lin2020}
 Zhongpeng Lin.
 \newblock {Building Uber's Go Monorepo with Bazel}.
-\newblock In {\em Uber Engineering Blog}.
-  https://eng.uber.com/go-monorepo-bazel, 2020.
-
-\bibitem{Compton2016}
-{Kate Compton, Heather Logas, Joseph C. Osborn, Chandranil Chakrabortti, Kelsey
-  Coffman, Daniel Fava, Dylan Lederle-Ensign, Zhongpeng Lin, Joe Mazeika,
-  Afshin Mobramaein, Jonathan Pagnutti, Huascar Sanchez , Jim Whitehead, Brenda
-  Laurel and John Murray}.
-\newblock Design lessons from binary fission: A crowd sourced game for
-  precondition discovery.
-\newblock In {\em Proceedings of 1st International Joint Conference of DiGRA
-  and FDG}, Dundee, Scotland, UK, 2016.
-
-\bibitem{Lin2015}
-Zhongpeng Lin.
-\newblock {\em Understanding and Simulating Software Evolution}.
-\newblock PhD thesis, University of California, Santa Cruz, December 2015.
-
-\bibitem{Lin2015power}
-Zhongpeng Lin and Jim Whitehead.
-\newblock Why power laws? an explanation from fine-grained code changes.
-\newblock In {\em Proceedings of the 12th Working Conference on Mining Software
-  Repositories (MSR 2015)}, pages 68--75, Florence, Italy, May 2015.
-
-\bibitem{Compton2015}
-{Kate Compton, Dylan Lederle-Ensign, Zhongpeng Lin, Joe Mazeika, Afshin
-  Mobramaein, Jonathan Pagnutti, Huascar Sanchez and Jim Whitehead}.
-\newblock Botprint: Casual robotic evolution.
-\newblock In {\em Computational Creativity and Games Workshop}, Park City, UT,
-  USA, 2015.
-
-\bibitem{Lin2014}
-Zhongpeng Lin and Jim Whitehead.
-\newblock Using fine-grained code change metrics to simulate software
-  evolution.
-\newblock In {\em Proceedings of the 5th International Workshop on Emerging
-  Trends in Software Metrics (WETSoM 2014)}, pages 15--18, Hyderabad, India,
-  June 2014. ACM Press.
-
-\bibitem{Logas2014}
-{Heather Logas, Jim Whitehead, Michael Mateas, Richard Vallejos, Lauren Scott,
-  Dan Shapiro, John Murray, Kate Compton, Joseph Osborn, Orlando Salvatore,
-  Zhongpeng Lin, Huascar Sanchez, Michael Shavlovsky, Daniel Cetina, Shayne
-  Clementi and Chris Lewis}.
-\newblock Software verification games: Designing {Xylem}, the code of plants.
-\newblock In {\em Proceedings of the 9th International Conference on the
-  Foundations of Digital Games (FDG 2014)}, 2014.
-
-\bibitem{Lin2013a}
-Zhongpeng Lin, Chris Lewis, Sri Kurniawan, and Jim Whitehead.
-\newblock {Why players start and stop playing a Chinese social network game}.
-\newblock {\em Journal of Gaming \& Virtual Worlds}, 5(3):307--328, 2013.
-
-\bibitem{Lin2013}
-Zhongpeng Lin.
-\newblock Understanding and simulating software evolution.
-\newblock In {\em Proceedings of the 35th International Conference on Software
-  Engineering (ICSE 2013)}, pages 1411--1414, San Francisco, CA, USA, May 2013.
-  IEEE/ACM.
-
-\bibitem{Lewis2013}
-Chris Lewis, Zhongpeng Lin, Caitlin Sadowski, Xiaoyan Zhu, Rong Ou, and
-  E.~James~Whitehead Jr.
-\newblock Does bug prediction support human developers? findings from a google
-  case study.
-\newblock In {\em Proceedings of the 35th International Conference on Software
-  Engineering (ICSE 2013)}, pages 372--381, San Francisco, CA, USA, May 2013.
-  IEEE/ACM.
-
-\bibitem{Sadowski2011}
-Caitlin Sadowski, Chris Lewis, Zhongpeng Lin, Xiaoyan Zhu, and E.~James
-  Whitehead.
-\newblock An empirical analysis of the fixcache algorithm.
-\newblock In {\em Proceeding of the 8th Working Conference on Mining Software
-  Repositories (MSR 2011)}, pages 219--222, Honolulu, HI, USA, May 2011. ACM
-  Press.
-
-\bibitem{Du:2010}
-Jing Du, Ye~Yang, Zhongpeng Lin, Qing Wang, Mingshu Li, and Feng Yuan.
-\newblock A case study on usage of a software process management tool in china.
-\newblock In {\em Proceedings of the 2010 Asia Pacific Software Engineering
-  Conference}, pages 443--452, Sydney, Australia, November 2010. IEEE Computer
-  Society.
-
-\bibitem{Lin2009}
-Zhongpeng Lin, Fengdi Shu, Ye~Yang, Chenyong Hu, and Qing Wang.
-\newblock An empirical study on bug assignment automation using chinese bug
-  data.
-\newblock In {\em Proceedings of the 3rd International Symposium on Empirical
-  Software Engineering and Measurement}, pages 451--455, Lake Buena Vista, FL,
-  USA, October 2009. IEEE.
+\newblock Uber Engineering Blog, May 2020.
+\newblock \url{https://eng.uber.com/go-monorepo-bazel}.
 
 \end{thebibliography}
